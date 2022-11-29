@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/characterList"
+        android:icon="@drawable/ic_profile"
+        android:title="characters" />
+    <item
+        android:id="@+id/episodeList"
+        android:icon="@drawable/ic_episode"
+        android:title="episodes" />
+    <item
+        android:id="@+id/quoteList"
+        android:icon="@drawable/ic_message"
+        android:title="quotes" />
+</menu>

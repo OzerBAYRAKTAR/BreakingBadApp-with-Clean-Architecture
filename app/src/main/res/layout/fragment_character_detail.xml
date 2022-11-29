@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.CharacterDetail">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:connect=".CharacterDetail">
+
+    <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/walpaper"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/detName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textStyle="bold"
+            android:text="Name:              Walter WHITE "
+            android:textSize="24sp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="#050505" />
+        <TextView
+            android:id="@+id/detNick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:text="NickName:      Heisenberg "
+            android:textSize="24sp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="#050505" />
+        <TextView
+            android:id="@+id/detPortrayed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:text="Portrayed:       Bryan Cranston "
+            android:textSize="24sp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="#050505" />
+        <TextView
+            android:id="@+id/detOccup"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Occupation:    Chemistery,Teacher"
+            android:textSize="24sp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="#050505" />
+        <TextView
+            android:id="@+id/detAppear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="7dp"
+            android:text="Appearance:   1,2,3,4,5"
+            android:textSize="24sp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="#050505" />
+        <TextView
+            android:id="@+id/detStatus"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="Status:             Presumed Dead "
+            android:textSize="24sp"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="#050505" />
+
+
+
+
+
+
+</LinearLayout>
+</FrameLayout>

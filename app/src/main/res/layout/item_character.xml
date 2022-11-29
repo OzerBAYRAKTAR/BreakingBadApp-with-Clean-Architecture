@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="3dp"
+    android:background="@drawable/charitem_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/characterImage"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_margin="12dp"
+        android:layout_marginTop="4dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/walpaper" />
+
+    <TextView
+        android:id="@+id/characterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WALTER WHİTE"
+        android:textSize="18dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/characterImage"
+        app:layout_constraintStart_toStartOf="@+id/characterImage"
+        app:layout_constraintTop_toBottomOf="@+id/characterImage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
