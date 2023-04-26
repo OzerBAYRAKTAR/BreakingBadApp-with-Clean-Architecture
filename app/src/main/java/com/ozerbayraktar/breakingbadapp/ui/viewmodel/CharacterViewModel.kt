@@ -23,8 +23,6 @@ class CharacterViewModel @Inject constructor(
     private var _state = MutableStateFlow<Resource<List<CharacterUI>>>(Resource.Loading)
     var state=_state.asStateFlow()
 
-
-
     init {
         getCharacter()
 

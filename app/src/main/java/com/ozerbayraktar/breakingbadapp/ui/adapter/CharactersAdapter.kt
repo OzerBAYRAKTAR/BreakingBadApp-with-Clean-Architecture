@@ -20,7 +20,8 @@ class CharactersAdapter(private var characterList:ArrayList<CharacterUI>):
                 with(item) {
                     characterText.text=name
                     characterImage.glideImage(img)
-                    root.setOnClickListener { onClick(charId) }
+                    root.setOnClickListener {
+                        onClick(charId) }
 
                 }
             }
@@ -36,7 +37,6 @@ class CharactersAdapter(private var characterList:ArrayList<CharacterUI>):
 
     override fun onBindViewHolder(holder: ItemHolder, position: Int) {
         holder.bind(characterList[position])
-
         }
 
     override fun getItemCount(): Int =characterList.size
